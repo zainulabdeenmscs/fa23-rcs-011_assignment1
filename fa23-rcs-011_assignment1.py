@@ -9,7 +9,7 @@
 # Lists, Dictionaries, Tuples 
 # ### 1.1.  Create a list: nums = [3, 5, 7, 8, 12], make another list named ‘cubes’ and append the cubes of the given list ‘nums’ in this list and print it.
 
-# In[6]:
+# In[1]:
 
 
 # Given list
@@ -28,7 +28,7 @@ print(cubes)
 
 # ### 1.2.  Create an empty dictionary: dict = {}, add the following data to the dictionary: ‘parrot’: 2, ‘goat’: 4, ‘spider’: 8, ‘crab’: 10 as key value pairs.
 
-# In[7]:
+# In[2]:
 
 
 # Creating an empty dictionary
@@ -46,7 +46,7 @@ print(my_dict)
 
 # ### 1.3.  Use the ‘items’ method to loop over the dictionary (dict) and print the animals and their corresponding legs. Sum the legs of each animal, and print the total at the end.
 
-# In[8]:
+# In[3]:
 
 
 # Initializing a variable to store the total number of legs
@@ -63,7 +63,7 @@ print(f"Total number of legs are: {total_legs}")
 
 # ### 1.4.  Create a tuple: A = (3, 9, 4, [5, 6]), change the value in the list from ‘5’ to ‘8’. 
 
-# In[22]:
+# In[4]:
 
 
 # Creating the tuple
@@ -78,7 +78,7 @@ print(A)
 
 # ### 1.5.  Delete the tuple A
 
-# In[23]:
+# In[5]:
 
 
 # Deleting the tuple A
@@ -91,7 +91,7 @@ del A
 
 # ### 1.6.  Create another tuple: B = (‘a’, ‘p’, ‘p’, ‘l’, ‘e’), print the number of occurrences of ‘p’ in the tuple. 
 
-# In[24]:
+# In[6]:
 
 
 # Creating the tuple
@@ -106,7 +106,7 @@ print(f"The letter 'p' occurs {count_p} times in the tuple.")
 
 # ### 1.7.  Print the index of ‘l’ in the tuple. 
 
-# In[8]:
+# In[7]:
 
 
 # Printing the index of 'l' in the tuple
@@ -126,7 +126,7 @@ print(f"The letter 'l' is at index {index_l} in the tuple.")
 # 
 # ### 2.1  Convert matrix A into numpy array
 
-# In[39]:
+# In[8]:
 
 
 import numpy as np
@@ -149,7 +149,7 @@ print(A_array)
 
 # ### 2.2  Use slicing to pull out the subarray consisting of the first 2 rows and columns 1 and 2. Store it in b which is a numpy array of shape (2, 2).
 
-# In[26]:
+# In[9]:
 
 
 # Slicing the first 2 rows and columns 1 and 2 from A_array
@@ -162,7 +162,7 @@ print(f'Shape of numpy Array is: {b.shape}')
 
 # ### 2.3  Create an empty matrix ‘C’ with the same shape as ‘A’.
 
-# In[29]:
+# In[10]:
 
 
 # Creating an empty matrix with shape 3x4
@@ -174,7 +174,7 @@ print(c.shape)
 # ### 2.4 Add the vector z to each column of the matrix ‘A’ with an explicit loop and store it in ‘C’.
 # #### Create the following: X = np.array([[1,2],[3,4]]) Y = np.array([[5,6],[7,8]]) v = np.array([9,10]) 
 
-# In[91]:
+# In[11]:
 
 
 z = np.array([1, 0, 1])
@@ -188,7 +188,7 @@ print("\nVector z:", z.shape)
 print("\nResulting matrix C:\n", c)
 
 
-# In[40]:
+# In[12]:
 
 
 # Defining the matrices and vector
@@ -199,7 +199,7 @@ v = np.array([9, 10])
 
 # ### 2.5  Add and print the matrices X and Y.
 
-# In[49]:
+# In[13]:
 
 
 # Adding and printing the matrices X and Y
@@ -210,7 +210,7 @@ print(f"Matrix X + Matrix Y: \n{sum_X_Y}")
 
 # ### 2.6  Multiply and print the matrices X and Y. 
 
-# In[50]:
+# In[14]:
 
 
 # Multiplying and printing the matrices X and Y
@@ -220,7 +220,7 @@ print(f"Multiplication of Matrix X and Matrix Y: \n{multiply_X_Y}")
 
 # ### 2.7  Compute and print the element wise square root of matrix Y. 
 
-# In[44]:
+# In[15]:
 
 
 # Computing and printing the element-wise square root of matrix Y
@@ -230,7 +230,7 @@ print(f"Element-wise square root of Matrix Y:\n {elementwise_sqrt}")
 
 # ### 2.8  Compute and print the dot product of the matrix X and vector v.
 
-# In[46]:
+# In[16]:
 
 
 # Computing and printing the dot product of the matrix X and vector v
@@ -240,7 +240,7 @@ print(f"Dot product of Matrix X and Vector v: \n {dot_product}")
 
 # ### 2.9  Compute and print the sum of each column of X.
 
-# In[51]:
+# In[17]:
 
 
 # Computing and printing the sum of each column of X
@@ -250,7 +250,7 @@ print(f"Sum of each column of Matrix X:\n{column_sum} ")
 
 # ### Task 3: Functions and Loops 3.1  Create a function ‘Compute’ that takes two arguments, distance and time, and use it to calculate velocity. 
 
-# In[52]:
+# In[18]:
 
 
 def Compute(distance, time):
@@ -269,7 +269,7 @@ print(f"The velocity is {velocity} meters per second.")
 
 # ### 3.2 Make a list named ‘even_num’ that contains all even numbers up till 12. Create a function ‘mult’ that takes the list ‘even_num’  as an argument and calculates the products of all entries using a for loop.
 
-# In[53]:
+# In[19]:
 
 
 # Creating the list of even numbers up till 12
@@ -291,7 +291,7 @@ print(f"The product of all even numbers up till 12 is {product_of_evens}.")
 
 # ### Task 4: Pandas Create a Pandas dataframe named ‘pd’ that contains 5 rows and 4 columns, similar to the one given below:
 
-# In[ ]:
+# In[20]:
 
 
 # This is the table of question
@@ -313,7 +313,7 @@ print(df)
 
 # ### Solution:
 
-# In[59]:
+# In[21]:
 
 
 # Defining data for the DataFrame
@@ -331,27 +331,9 @@ df = pd.DataFrame(data)
 print(df)
 
 
-# In[116]:
-
-
-# Define the data for the DataFrame
-data = {
-    'C1': [1, 2, 3, 5, 5],
-    'C2': [6, 7, 5, 4, 8],
-    'C3': [7, 9, 8, 6, 5],
-    'C4': [7, 5, 2, 8, 8]
-}
-
-# Create the DataFrame
-df = pd.DataFrame(data)
-
-# Print the DataFrame
-print(df)
-
-
 # ### 4.1  Print only the first two rows of the dataframe. 
 
-# In[61]:
+# In[22]:
 
 
 # Printing the first two rows of the DataFrame
@@ -360,7 +342,7 @@ print(df.head(2))
 
 # ### 4.2 Print the second column
 
-# In[62]:
+# In[23]:
 
 
 # Printing the second column of the DataFrame
@@ -369,7 +351,7 @@ print(df['C2'])
 
 # ### 4.3  Change the name of the third column from ‘C3’ to ‘B3’.
 
-# In[63]:
+# In[24]:
 
 
 # Changing the third column name from 'C3' to 'B3'
@@ -382,7 +364,7 @@ print(df)
 # ### 4.4  Add a new column to the dataframe and name it ‘Sum’. 
 # #### 4.5  Sum the entries of each row and add the result in the column ‘Sum’.
 
-# In[120]:
+# In[25]:
 
 
 # Adding a new column 'Sum' that contains the sum of values from existing columns
@@ -395,7 +377,7 @@ print(df)
 # ### 4.6 Read CSV file named ‘hello_sample.csv’ (the file is available in the class Google Drive shared folder) into a Pandas dataframe.
 # #### 4.7  Print complete dataframe. 
 
-# In[73]:
+# In[26]:
 
 
 # Reading the CSV file into a DataFrame
@@ -407,7 +389,7 @@ print(df2)
 
 # ### 4.8  Print only bottom 2 records of the dataframe. 
 
-# In[74]:
+# In[27]:
 
 
 # Printing the bottom 2 records of the DataFrame
@@ -416,7 +398,7 @@ print(df2.tail(2))
 
 # ### 4.9  Print information about the dataframe. 
 
-# In[75]:
+# In[28]:
 
 
 # Printing information about the DataFrame
@@ -425,14 +407,14 @@ print(df2.info())
 
 # ### 4.10  Print shape (rows x columns) of the dataframe. 
 
-# In[76]:
+# In[29]:
 
 
 # Printing the shape of the DataFrame
 print(df2.shape)
 
 
-# In[77]:
+# In[30]:
 
 
 print(df2.columns)
@@ -440,7 +422,7 @@ print(df2.columns)
 
 # ### 4.11  Sort the data of the dataFrame using column ‘Weight’. 
 
-# In[78]:
+# In[31]:
 
 
 # Sort the DataFrame by the 'Weight' column
@@ -452,7 +434,7 @@ print(df2_sorted)
 
 # ### 4.12  Use isnull() and dropna() methods of the Pandas dataframe and see if they produce any changes. 
 
-# In[80]:
+# In[32]:
 
 
 # Checking for missing values
